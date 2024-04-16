@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="psw">
+          <input class="pswgenerated" id="psw-generated" type="text" placeholder="Password generated" readonly />
+        </div>
+        <!-- <button id="button-copy">Copy to clipboard</button> -->
+        <div class="length">
+          <p>Length: <span id="psw-length">16</span></p>
+        </div>
+        <div class="container-box-range">
+          <span>4</span>
+          <input class="rangecolor" type="range" name="range" id="range" min="4" max="40" step="1" />
+          <span>40</span>
+        </div>
+        <div class="container-box">
+          <p>Include Uppercase</p>
+          <input class="checkbox" type="checkbox" name="checkbox" id="checkbox-upper" />
+        </div>
+        <div class="container-box">
+          <p>Include Lowercase</p>
+          <input class="checkbox" type="checkbox" name="checkbox" id="checkbox-lower" />
+        </div>
+        <div class="container-box">
+          <p>Include Numbers</p>
+          <input class="checkbox" type="checkbox" name="checkbox" id="checkbox-numbers" />
+        </div>
+        <div class="container-box">
+          <p>Include Symbols</p>
+          <input class="checkbox" type="checkbox" name="checkbox" id="checkbox-symbols" />
+        </div>
+        <div class="button">
+          <button id="button-generate">Generate Password</button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./js/script.js"></script>
+</html>

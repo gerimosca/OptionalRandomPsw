@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(7, 96, 96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container{
+    background-color: rgb(7, 96, 96);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px
+    
+}
+
+::placeholder{
+    color: rgba(153, 153, 153, 0.7);
+}
+
+.rangecolor{
+    accent-color: rgb(7, 96, 96);
+}
+
+.container-box-range,
+.container-box,
+.psw{
+    display: flex;
+    background-color: rgb(38, 64, 120);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box{
+    padding: 1px;
+    margin: 10px;
+}
+
+
+.psw{
+    background-color: blanchedalmond;
+}
+
+.pswgenerated{
+    width: 100%;
+}
+
+.length{
+    margin-left: 11px;
+    
+}
+
+
+
+p, span{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.checkbox{
+    margin-right: 1px;
+}
+
+input{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+button{
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+    padding: 15px 100px;
+    border-radius: 10px;
+    margin: auto 10px;
+    border-style:solid;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: white;
+    font-weight: bold;
+    color: black;
+
+}
